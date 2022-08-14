@@ -1,7 +1,6 @@
 import { View, Modal, Text, Image, FlatList, Pressable } from 'react-native';
-import i18n from '../../i18n/i18n';
 // import { Icon } from 'react-native-elements'
-const i18n = require('i18n');
+// const i18n = require('i18n');
 import styles from './style';
 
 export default function App() {
@@ -15,11 +14,13 @@ export default function App() {
       <Modal>
 
       </Modal>
-      <View>
+      <View style={styles.header}>
         <Text style={styles.title}>Documents</Text>
-        <Image />
+        <Text>a</Text>
       </View>
       <View>
+        <View>
+        </View>
         <FlatList />
       </View>
       <View>
